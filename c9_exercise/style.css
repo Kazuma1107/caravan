@@ -67,8 +67,18 @@ footer {
 /*レスポンシブ対応のコード*/
 
 @media screen and (max-width: 768px) {
-  header {
-    height: 50px;
-    background-color: #ff9a4b;
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .step-box {
+    width: 90%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  footer {
+    margin-top: 50px;
   }
 }
