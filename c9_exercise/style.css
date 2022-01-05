@@ -64,3 +64,11 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+/*レスポンシブ対応のコード*/
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px;
+    background-color: #ff9a4b;
+  }
+}
